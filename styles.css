@@ -1,0 +1,155 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Change font-family if needed */
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Change background color of the body */
+}
+
+header {
+    background: #060606; /* Change header background color */
+    color: #fff; /* Change header text color */
+    padding: 1rem 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header .logo h1 {
+    font-size: 1.8rem; /* Change logo font size */
+    margin-right: auto; /* Align logo to the left */
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin-left: 2rem; /* Change space between nav items */
+}
+
+header ul li a {
+    color: #fff; /* Change nav item text color */
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.hero {
+    background: url('https://plus.unsplash.com/premium_photo-1670315264879-59cc6b15db5f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover; /* Change background image */
+    height: 100vh; /* Change height of hero section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff; /* Change hero text color */
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem; /* Change hero title font size */
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem; /* Change hero subtitle font size */
+    margin-bottom: 2rem;
+}
+
+.hero-content .btn {
+    background: #ff6347; /* Change button background color */
+    color: #fff; /* Change button text color */
+    padding: 0.75rem 1.5rem; /* Change button padding */
+    text-decoration: none;
+    font-size: 1.2rem; /* Change button font size */
+    border-radius: 5px; /* Change button border radius */
+}
+
+#about, #services, #contact {
+    padding: 2rem 1rem; /* Change padding for sections */
+    text-align: center;
+}
+
+#about h2, #services h2, #contact h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem; /* Change section title font size */
+}
+
+#about p, #services p {
+    font-size: 1rem; /* Change section text font size */
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background: #fff; /* Change service card background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Change service card shadow */
+    border-radius: 8px; /* Change service card border radius */
+    padding: 1rem; /* Change service card padding */
+    margin: 1rem; /* Change service card margin */
+    text-align: center;
+    width: 260px; /* Change service card width */
+}
+
+.service-card i {
+    font-size: 2rem; /* Change service card icon size */
+    margin-bottom: 0.5rem;
+    color: #ff6347; /* Change service card icon color */
+}
+
+.service-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem; /* Change service card title font size */
+}
+
+.service-card p {
+    font-size: 1rem; /* Change service card text font size */
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+    font-size: 1rem; /* Change contact info text font size */
+}
+
+.map {
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+footer {
+    background: #0f0f0f; /* Change footer background color */
+    color: #fff; /* Change footer text color */
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
